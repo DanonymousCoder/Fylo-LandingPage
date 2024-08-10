@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.navbar nav .nav-link ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2.5rem;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
